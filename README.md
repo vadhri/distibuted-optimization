@@ -67,7 +67,7 @@ Consensus algorithms and dynamics on graphs, including average, min, max, and st
 For more details, see the individual notebooks. Contributions and suggestions are welcome!
 
 
-## Federated Learning with PySyft Duet
+### pysyft duet/
 
 Federated learning examples using PySyft Duet, demonstrating secure collaboration between Data Owner and Data Scientist.
 
