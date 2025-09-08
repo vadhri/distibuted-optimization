@@ -66,6 +66,17 @@ Consensus algorithms and dynamics on graphs, including average, min, max, and st
 
 For more details, see the individual notebooks. Contributions and suggestions are welcome!
 
+
+## Federated Learning with PySyft Duet
+
+Federated learning examples using PySyft Duet, demonstrating secure collaboration between Data Owner and Data Scientist.
+
+| File | Role | Description |
+|------|------|-------------|
+| [Duet_Basics_Data_Owner.ipynb](duet/basic/Duet_Basics_Data_Owner.ipynb) | Data Owner | Launches a Duet server, manages users, uploads datasets, and responds to requests from Data Scientists. Demonstrates asset and dataset creation, request approval, and server lifecycle. |
+| [Duet_Basics_Data_Scientist.ipynb](duet/basic/Duet_Basics_Data_Scientist.ipynb) | Data Scientist | Connects to the Duet server, requests access to datasets, and runs federated computations on real and mock data. Shows how to interact with the Data Owner and retrieve results securely. |
+
+
 ### pytorch-distributed/
 
 | Folder | Description |
