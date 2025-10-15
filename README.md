@@ -103,3 +103,13 @@ Federated learning experiments using Flower framework.
 | [simple-linear-regression](flower/simple-linear-regression/) | Federated simple linear regression with Flower. |
 | [simple-minst-partitioned-iid](flower/simple-minst-partitioned-iid/) | Federated MNIST classification with partitioned IID data using Flower. |
 | [multi-node-gpu-linear-regression](flower/multi-node-gpu-linear-regression/) | Multi-node GPU linear regression with Flower, Terraform, and CUDA. |
+
+
+### split_learning/
+
+Implementations and experiments with split learning and pipeline parallelism approaches for distributed model training.
+
+| File | Description |
+|------|-------------|
+| [torch-pipelining](split_learning/torch-pipelining.ipynb) | Three progressive pipeline parallelism experiments: <br>• Basic 2-stage forward pass model <br>• 2-stage training pipeline with synthetic data <br>• Scaled 10-stage model with dynamic chunking and automated stage splitting |
+| [vanilla-split](split_learning/vanilla-split.ipynb) | Basic split learning implementation showing: <br>• Client-server model partitioning <br>• Synchronized forward/backward passes <br>• Gradient coordination between parties <br>• Memory efficient distributed training |
